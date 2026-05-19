@@ -1,0 +1,91 @@
+{
+    "spider": "https://oss4liview.moji.com/thd_file/2026/05/18/8094ffbc1260ca13b228a43cf68282a5.jpg;md5;1d7a5147033044a81f91d5f4a510f9ed",
+    "wallpaper": "https://深色壁纸.xxooo.cf/",
+    "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
+    "sites": [
+        {
+            "key": "Douban",
+            "name": "豆瓣｜推荐",
+            "type": 3,
+            "api": "csp_DoubanGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "Wogg",
+            "name": "玩偶｜4K",
+            "type": 3,
+            "api": "csp_WoGGGuard",
+            "timeout": 30,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
+            }
+        },
+        {
+            "key": "FishMuou",
+            "name": "木偶｜4K",
+            "type": 3,
+            "api": "csp_FishMuouGuard",
+            "timeout": 30,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt"
+            }
+        },
+        {
+            "key": "虎牙js",
+            "name": "🐯虎牙｜第五/DOTA2/魔兽",
+            "type": 3,
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/虎牙.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.755
+            },
+            "timeout": 10,
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "斗鱼js",
+            "name": "🐟斗鱼｜第五/DOTA2/魔兽",
+            "type": 3,
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/斗鱼.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.755
+            },
+            "timeout": 10,
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        }
+    ],
+    "rules": [
+        {
+            "name": "cdn.ryplay",
+            "hosts": ["cdn.ryplay"],
+            "regex": [
+                "5.480000",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        }
+    ],
+    "hosts": [
+        "img1.wsyzy.org=fan.cloudflare.182682.xyz",
+        "fiizvfck.top=fan.cloudflare.182682.xyz"
+    ]
+}
