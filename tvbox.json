@@ -1,7 +1,6 @@
 {
     "spider": "https://oss4liview.moji.com/thd_file/2026/05/18/8094ffbc1260ca13b228a43cf68282a5.jpg;md5;1d7a5147033044a81f91d5f4a510f9ed",
-    "wallpaper": "https://深色壁纸.xxooo.cf/",
-    "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
+    "logo": "https://pica.zhimg.com/50/v2-d428af7b7ac9045ea990c414979c9353_720w.gif?source=1940ef5c",
     "sites": [
         {
             "key": "Douban",
@@ -74,7 +73,9 @@
     "rules": [
         {
             "name": "cdn.ryplay",
-            "hosts": ["cdn.ryplay"],
+            "hosts": [
+                "cdn.ryplay"
+            ],
             "regex": [
                 "5.480000",
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
