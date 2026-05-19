@@ -3,16 +3,6 @@
     "logo": "https://s1.aigei.com/src/img/gif/e4/e4362b4c7db545f9991c6ecf3633e963.gif",
     "sites": [
         {
-            "key": "Douban",
-            "name": "豆瓣｜推荐",
-            "type": 3,
-            "api": "csp_DoubanFishGuard",
-            "indexs": 1,
-            "searchable": 0,
-            "filterable": 1,
-            "ext": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/2026/douban.json"
-        },
-        {
             "key": "FishConfig",
             "name": "设置｜网盘中心",
             "type": 3,
@@ -24,6 +14,7 @@
             "type": 3,
             "api": "csp_WoggFishGuard",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
             "ext": {
@@ -51,6 +42,16 @@
                     "https://www.muou.asia"
                 ]
             }
+        },
+        {
+            "key": "Douban",
+            "name": "豆瓣｜推荐",
+            "type": 3,
+            "api": "csp_DoubanFishGuard",
+            "indexs": 1,
+            "searchable": 0,
+            "filterable": 1,
+            "ext": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/2026/douban.json"
         },
         {
             "key": "知予",
