@@ -165,7 +165,7 @@
             "name": "虎牙tv",
             "type": 3,
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/ 虎牙_精简.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/ 虎牙.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -181,7 +181,7 @@
             "name": "斗鱼tv",
             "type": 3,
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/ 斗鱼_精简.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/ 斗鱼.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
