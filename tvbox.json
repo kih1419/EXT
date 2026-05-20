@@ -1,16 +1,16 @@
 {
     "spider": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260520/fjXA/Fish05201231.php;md5;4e3d7996f9446fd3c496cea28e3d6e75",
-    "logo": "https://s1.aigei.com/src/img/gif/e4/e4362b4c7db545f9991c6ecf3633e963.gif",
+    "logo": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2E3bGY4bG81MXVxNTcwM2Y0NzNwY3VrZHYzbTE5MWlsbXB5N2RxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wM2jsoKbVTur6/giphy.gif",
     "sites": [
         {
             "key": "FishConfig",
-            "name": "设置｜网盘中心",
+            "name": "网盘设置",
             "type": 3,
             "api": "csp_FishConfigFishGuard"
         },
         {
             "key": "Wogg",
-            "name": "玩偶｜4K",
+            "name": "玩偶哥哥",
             "type": 3,
             "api": "csp_WoggFishGuard",
             "searchable": 1,
@@ -30,7 +30,7 @@
         },
         {
             "key": "FishMuou",
-            "name": "木偶｜4K",
+            "name": "木偶姐姐",
             "type": 3,
             "api": "csp_FishCloudFishGuard",
             "searchable": 1,
@@ -45,7 +45,7 @@
         },
         {
             "key": "Douban",
-            "name": "豆瓣｜推荐",
+            "name": "豆瓣电影",
             "type": 3,
             "api": "csp_DoubanFishGuard",
             "indexs": 1,
@@ -111,7 +111,7 @@
         },
         {
             "key": "CZ",
-            "name": "厂长｜影视",
+            "name": "厂长资源",
             "type": 3,
             "api": "csp_CZFishGuard",
             "searchable": 1,
@@ -120,16 +120,8 @@
             "ext": "https://www.czzymovie.com"
         },
         {
-            "key": "wencai",
-            "name": "文才｜影视",
-            "type": 3,
-            "api": "csp_WenCaiFishGuard",
-            "searchable": 1,
-            "ext": "https://www.tjrongze.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.jiabaide.cn"
-        },
-        {
             "key": "Libvio",
-            "name": "立播｜4K",
+            "name": "Libvio",
             "type": 3,
             "api": "csp_LibvioFishGuard",
             "searchable": 1,
@@ -144,16 +136,8 @@
             }
         },
         {
-            "key": "Zxzj",
-            "name": "在线｜影视",
-            "type": 3,
-            "api": "csp_ZxzjFishGuard",
-            "searchable": 1,
-            "ext": "https://www.zxzjhd.com"
-        },
-        {
             "key": "Kanqiu",
-            "name": "看球｜体育",
+            "name": "体育直播1",
             "type": 3,
             "api": "csp_KanqiuFishGuard",
             "searchable": 0,
@@ -166,7 +150,7 @@
         },
         {
             "key": "Sir88",
-            "name": "超全｜体育",
+            "name": "体育直播2",
             "type": 3,
             "api": "csp_Sir88FishGuard",
             "searchable": 0,
@@ -178,7 +162,7 @@
         },
         {
             "key": "虎牙js",
-            "name": "虎牙｜直播",
+            "name": "虎牙tv",
             "type": 3,
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/drpy2.min.js",
             "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/ 虎牙_精简.js",
@@ -194,7 +178,7 @@
         },
         {
             "key": "斗鱼js",
-            "name": "斗鱼｜直播",
+            "name": "斗鱼tv",
             "type": 3,
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/drpy2.min.js",
             "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kih1419/EXT/refs/heads/main/ 斗鱼_精简.js",
